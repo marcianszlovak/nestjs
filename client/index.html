@@ -1,0 +1,7 @@
+<ul></ul>
+<script>
+  httpRequest = new XMLHttpRequest();
+  httpRequest.onreadystatechange = console.log;
+  httpRequest.open("GET", "http://localhost:3000/tasks/1");
+  httpRequest.send(null);
+</script>
